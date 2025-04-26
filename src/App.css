@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap");
+@import "tailwindcss";
+
+.strokeme {
+  -webkit-text-stroke: 0.7px white;
+}
+
+.strokeme-l {
+  -webkit-text-stroke: 1.5px white;
+}
+
+.-background {
+  background-color: #f9fafc;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231 200" width="231" height="200"><line x1="0" y1="100" x2="231" y2="100" stroke="%23D8B2D0B8" stroke-width="0.5" fill="none"/><polyline points="0,200 115.5,0 231,200" stroke="%23D8B2D0B8" stroke-width="0.5" fill="none"/><polyline points="0,0 115.5,200 231,0" stroke="%23D8B2D0B8" stroke-width="0.5" fill="none"/><line x1="0" y1="0" x2="231" y2="0" stroke="%23D8B2D0B8" stroke-width="1" fill="none"/></svg>');
+}
+
+.dx {
+  background: -webkit-linear-gradient(
+    left,
+    #f34539,
+    #f0a72a,
+    #fde404,
+    #98d03e,
+    #0ca7e2
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Anuphan", sans-serif;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
